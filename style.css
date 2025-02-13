@@ -401,7 +401,7 @@ nav ul li a:hover::after {
   border-radius: 10px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
-  position: relative;
+
   transition: all 0.3s ease-in-out;
 }
 
@@ -441,4 +441,78 @@ nav ul li a:hover::after {
   color: #fff;
 }
 
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Contact Section */
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  background-color: #f9f8fa;
+}
+
+.contact-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #FFC107; /* Yellow color for the word "My" */
+  text-decoration: underline;
+}
+
+/* Contact Form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  font-style: italic;
+  color: #999;
+}
+
+/* Submit Button */
+.send-btn {
+  padding: 15px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #828a8a; /* Orange color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.send-btn:hover {
+  background-color: #b7c6b8; /* Darker orange on hover */
+}
 
