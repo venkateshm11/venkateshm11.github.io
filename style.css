@@ -95,7 +95,7 @@ nav ul li a:hover::after {
   .nav-links {
       display: none; /* Hide navbar initially */
       flex-direction: column;
-      position: relative;
+      position: absolute;
       top: 60px;
       right: 10%;
       background: white;
@@ -116,7 +116,7 @@ nav ul li a:hover::after {
     background: none;
     border: none;
     cursor: pointer;
-    position: relative;
+    position: absolute;
     right: 20px; /* Moves it to the right */
     top: 15px; /* Aligns it properly */
     z-index: 1100;
@@ -445,7 +445,7 @@ nav ul li a:hover::after {
       position: relative;
   }
 
-  .home-image {
+  .about-image {
       position: relative;
       top: 30%;
       left: 50%;
@@ -492,6 +492,7 @@ nav ul li a:hover::after {
 .container {
   width: 80%;
   margin: auto;
+  
 }
 
 .skills-grid {
@@ -518,6 +519,7 @@ nav ul li a:hover::after {
   position : relative;
   transform: translateY(-5px); /* Moves the card slightly up */
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  
 }
 
 .progress-circle {
@@ -549,19 +551,23 @@ nav ul li a:hover::after {
   font-size: 18px;
   display: block;
 }
-
 @media screen and (max-width: 768px) {
   .skills-grid {
     display: flex; /* Makes cards align in a row */
     overflow-x: auto; /* Enables horizontal scrolling */
     scroll-snap-type: x mandatory; /* Enables snap scrolling */
-    gap: 10px;
-    padding-bottom: 10px;
+    gap: 10px; /* Space between cards */
+  }
+  .container {
+    margin: 0; /* No margin */
+    padding: 0; /* No padding */
+    width: 100%; /* Full width */
   }
 
   .skill-card {
-    flex: 0 0 80%; /* Each card takes 80% of the screen width */
+    flex: 0 0 100%; /* Each card takes the full width of the screen */
     scroll-snap-align: start; /* Ensures smooth snapping */
+    margin: 0; /* Remove any margin for individual cards */
   }
 
   /* Hide scrollbar for better UI */
@@ -569,6 +575,7 @@ nav ul li a:hover::after {
     display: none;
   }
 }
+
 
 
 .services {
@@ -599,7 +606,7 @@ nav ul li a:hover::after {
 .service-card .icon {
   width: 50px;
   height: 50px;
-  background: #b2b59b;
+  background: #f6f6f4;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -624,12 +631,12 @@ nav ul li a:hover::after {
 }
 
 .service-card.active {
-  background: #b2b59b;
-  color: #fff;
+ 
+  color: #221d1d;
 }
 
 .service-card.active p {
-  color: #fff;
+  color: #2f2929;
 }
 
 .service-card:hover {
@@ -832,7 +839,7 @@ nav ul li a:hover::after {
   padding: 15px;
   font-size: 1rem;
   color: #fff;
-  background-color: #828a8a; /* Orange color */
+  background-color: #545e5e; /* Orange color */
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -841,7 +848,7 @@ nav ul li a:hover::after {
 }
 
 .send-btn:hover {
-  background-color: #b7c6b8; /* Darker orange on hover */
+  background-color: #939c94; /* Darker orange on hover */
 }
 
 /* Footer Section */
