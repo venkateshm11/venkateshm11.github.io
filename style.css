@@ -346,22 +346,26 @@ nav ul li a:hover::after {
 /* About Section */
 .about {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 100px 10%;
-  background: #f9f9f9;
-  margin-top: 0px;
+  padding: 10px 0;
+  background-color: #f8f9fa;
+  
 }
 
 .about-image img {
   margin-bottom: 0%;
-  width: 40%;
+  margin-left: 30%;
+  margin-top: 10% ;
+  width: 55%;
   height: auto;
   border-radius: 10px;
 }
 
 .about-content {
+  margin-top: 5%;
   max-width: 100%;
+  margin-right: 10%;
+  margin-left: 10%;
+  
 }
 
 .about-content h3 {
