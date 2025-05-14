@@ -354,8 +354,8 @@ nav ul li a:hover::after {
 .about-image img {
   margin-bottom: 0%;
   margin-left: 30%;
-  margin-top: 10% ;
-  width: 55%;
+  margin-top: 0% ;
+  width: 60%;
   height: auto;
   border-radius: 10px;
 }
