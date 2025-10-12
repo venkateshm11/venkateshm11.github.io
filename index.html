@@ -100,6 +100,7 @@
                     <a href="#home" class="text-gray-300 hover:text-blue-400 nav-link">Home</a>
                     <a href="#about" class="text-gray-300 hover:text-blue-400 nav-link">About</a>
                     <a href="#skills" class="text-gray-300 hover:text-blue-400 nav-link">Skills</a>
+                    <a href="#certifications" class="text-gray-300 hover:text-blue-400 nav-link">Certifications</a>
                     <a href="#services" class="text-gray-300 hover:text-blue-400 nav-link">Services</a>
                     <a href="#projects" class="text-gray-300 hover:text-blue-400 nav-link">Projects</a>
                     <a href="#contact" class="text-gray-300 hover:text-blue-400 nav-link">Contact</a>
@@ -116,6 +117,7 @@
             <a href="#home" class="block py-2 px-4 text-sm text-gray-300 hover:bg-gray-800">Home</a>
             <a href="#about" class="block py-2 px-4 text-sm text-gray-300 hover:bg-gray-800">About</a>
             <a href="#skills" class="block py-2 px-4 text-sm text-gray-300 hover:bg-gray-800">Skills</a>
+            <a href="#certications" class="block py-2 px-4 text-sm text-gray-300 hover:bg-gray-800">certifications</a>
             <a href="#services" class="block py-2 px-4 text-sm text-gray-300 hover:bg-gray-800">Services</a>
             <a href="#projects" class="block py-2 px-4 text-sm text-gray-300 hover:bg-gray-800">Projects</a>
             <a href="#contact" class="block py-2 px-4 text-sm text-gray-300 hover:bg-gray-800">Contact</a>
@@ -140,6 +142,10 @@
                         <a href="#contact" class="inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-lg text-lg hover:bg-blue-700 transition duration-300 shine-effect">
                             Hire Me
                         </a>
+                        <a href="certificates/Resume.pdf" class="inline-block ml-4 bg-orange-500 text-white font-bold py-3 px-8 rounded-lg text-lg hover:bg-orange-600 transition duration-300 shine-effect">
+                            Resume
+                        </a>
+
                     </div>
                     <div class="flex justify-center">
                         <div class="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
@@ -152,7 +158,7 @@
         </section>
 
         <!-- About Section -->
-        <section id="about" class="py-16 md:py-24 section-hidden">
+        <section id="about" class="py-16 md:py-24 bg-gray-50 dark:bg-gray-900/50 section-hidden">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">About <span class="gradient-text">Me</span></h2>
                 <p class="text-center text-gray-400 mb-12 max-w-3xl mx-auto">A passionate developer with a knack for crafting elegant solutions and a love for continuous learning.</p>
@@ -175,35 +181,158 @@
             </div>
         </section>
 
+
         <!-- Skills Section -->
-        <section id="skills" class="py-16 md:py-24 bg-gray-900/50 section-hidden">
+        <section id="skills" class="py-16 md:py-24 section-hidden">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">My <span class="gradient-text">Skills</span></h2>
-                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 text-center">
-                    <div class="flex flex-col items-center p-4 bg-gray-800/50 rounded-lg glow-border">
-                        <i data-lucide="code" class="w-16 h-16 text-blue-400 mb-2"></i>
-                        <h3 class="font-semibold">HTML5</h3>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">
+                    My <span class="gradient-text">Skills</span>
+                </h2>
+        
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    
+                    <!-- Frontend -->
+                    <div class="bg-white dark:bg-gray-800/50 p-8 rounded-lg glow-border">
+                        <h3 class="text-2xl font-semibold text-center mb-6 text-gray-800 dark:text-white">Frontend</h3>
+                        <div class="grid grid-cols-3 gap-6 place-items-center text-center">
+                            <div class="flex flex-col items-center p-2">
+                                <i data-lucide="code-2" class="w-12 h-12 text-blue-500 mb-2"></i>
+                                <h4 class="font-semibold">HTML5</h4>
+                            </div>
+                            <div class="flex flex-col items-center p-2">
+                                <i data-lucide="file-json-2" class="w-12 h-12 text-blue-500 mb-2"></i>
+                                <h4 class="font-semibold">CSS3</h4>
+                            </div>
+                            <div class="flex flex-col items-center p-2">
+                                <i data-lucide="braces" class="w-12 h-12 text-blue-500 mb-2"></i>
+                                <h4 class="font-semibold">JavaScript</h4>
+                            </div>
+                            <div class="flex flex-col items-center p-2">
+                                <i data-lucide="atom" class="w-12 h-12 text-blue-500 mb-2"></i>
+                                <h4 class="font-semibold">React</h4>
+                            </div>
+                            <div class="flex flex-col items-center p-2">
+                                <i data-lucide="layout" class="w-12 h-12 text-blue-500 mb-2"></i>
+                                <h4 class="font-semibold">Bootstrap</h4>
+                            </div>
+                            <div class="flex flex-col items-center p-2">
+                                <i data-lucide="layers" class="w-12 h-12 text-blue-500 mb-2"></i>
+                                <h4 class="font-semibold">Tailwind</h4>
+                            </div>
+                        </div>
                     </div>
-                    <div class="flex flex-col items-center p-4 bg-gray-800/50 rounded-lg glow-border">
-                        <i data-lucide="file-json-2" class="w-16 h-16 text-blue-400 mb-2"></i>
-                        <h3 class="font-semibold">CSS3</h3>
+        
+                    <!-- Backend -->
+                    <div class="bg-white dark:bg-gray-800/50 p-8 rounded-lg glow-border">
+                        <h3 class="text-2xl font-semibold text-center mb-6 text-gray-800 dark:text-white">Backend</h3>
+                        <div class="grid grid-cols-3 gap-6 place-items-center text-center">
+                            <div class="flex flex-col items-center p-2">
+                                <i data-lucide="box" class="w-12 h-12 text-green-500 mb-2"></i>
+                                <h4 class="font-semibold">Node.js</h4>
+                            </div>
+                            <div class="flex flex-col items-center p-2">
+                                <i data-lucide="cog" class="w-12 h-12 text-green-500 mb-2"></i>
+                                <h4 class="font-semibold">Express.js</h4>
+                            </div>
+                            <div class="flex flex-col items-center p-2">
+                                <i data-lucide="line-squiggle" class="w-12 h-12 text-green-500 mb-2"></i>
+                                <h4 class="font-semibold">Python</h4>
+                            </div>
+                        </div>
                     </div>
-                    <div class="flex flex-col items-center p-4 bg-gray-800/50 rounded-lg glow-border">
-                        <i data-lucide="braces" class="w-16 h-16 text-blue-400 mb-2"></i>
-                        <h3 class="font-semibold">JavaScript</h3>
+        
+                    <!-- Database -->
+                    <div class="bg-white dark:bg-gray-800/50 p-8 rounded-lg glow-border">
+                        <h3 class="text-2xl font-semibold text-center mb-6 text-gray-800 dark:text-white">Database</h3>
+                        <div class="grid grid-cols-3 gap-6 place-items-center text-center">
+                            <div class="flex flex-col items-center p-2">
+                                <i data-lucide="database" class="w-12 h-12 text-orange-500 mb-2"></i>
+                                <h4 class="font-semibold">MySQL</h4>
+                            </div>
+                            <div class="flex flex-col items-center p-2">
+                                <i data-lucide="cylinder" class="w-12 h-12 text-orange-500 mb-2"></i>
+                                <h4 class="font-semibold">MongoDB</h4>
+                            </div>
+                            <div class="flex flex-col items-center p-2">
+                                <i data-lucide="hard-drive" class="w-12 h-12 text-orange-500 mb-2"></i>
+                                <h4 class="font-semibold">Postgres</h4>
+                            </div>
+                        </div>
                     </div>
-                    <div class="flex flex-col items-center p-4 bg-gray-800/50 rounded-lg glow-border">
-                        <i data-lucide="atom" class="w-16 h-16 text-blue-400 mb-2"></i>
-                        <h3 class="font-semibold">React</h3>
+        
+                    <!-- Tools & Version Control -->
+                    <div class="bg-white dark:bg-gray-800/50 p-8 rounded-lg glow-border ">
+                        <h3 class="text-2xl font-semibold text-center mb-6 text-gray-800 dark:text-white">Tools & Version Control</h3>
+                        <div class="grid grid-cols-3 gap-6 place-items-center text-center">
+                            <div class="flex flex-col items-center p-2">
+                                <i data-lucide="git-branch" class="w-12 h-12 text-purple-500 mb-2"></i>
+                                <h4 class="font-semibold">Git</h4>
+                            </div>
+                            <div class="flex flex-col items-center p-2">
+                                <i data-lucide="github" class="w-12 h-12 text-purple-500 mb-2"></i>
+                                <h4 class="font-semibold">GitHub</h4>
+                            </div>
+                            <div class="flex flex-col items-center p-2">
+                                <i data-lucide="figma" class="w-12 h-12 text-purple-500 mb-2"></i>
+                                <h4 class="font-semibold">Figma</h4>
+                            </div>
+                            <div class="flex flex-col items-center p-2">
+                                <i data-lucide="code" class="w-12 h-12 text-purple-500 mb-2"></i>
+                                <h4 class="font-semibold">VScode</h4>
+                            </div>
+                        </div>
                     </div>
-                    <div class="flex flex-col items-center p-4 bg-gray-800/50 rounded-lg glow-border">
-                        <i data-lucide="box" class="w-16 h-16 text-blue-400 mb-2"></i>
-                        <h3 class="font-semibold">Node.js</h3>
-                    </div>
-                    <div class="flex flex-col items-center p-4 bg-gray-800/50 rounded-lg glow-border">
-                        <i data-lucide="line-squiggle" class="w-16 h-16 text-blue-400 mb-2"></i>
-                        <h3 class="font-semibold">Python</h3>
-                    </div>
+        
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="py-16 md:py-24 bg-gray-50 dark:bg-gray-900/50 section-hidden">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">My <span class="gradient-text">Certifications</span></h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                    <!-- Certification Item 1 -->
+                    <a href="certificates/Generative AI.pdf" target="_blank" rel="noopener noreferrer" class="block bg-white dark:bg-gray-800/50 p-6 rounded-lg glow-border hover:-translate-y-1">
+                        <div class="flex items-center space-x-4">
+                            <i data-lucide="award" class="w-8 h-8 text-yellow-500 flex-shrink-0"></i>
+                            <div>
+                                <h3 class="font-semibold text-lg text-gray-800 dark:text-white">Generative AI</h3>
+                                <p class="text-sm text-gray-500 dark:text-gray-400">Microsoft and Linkedln</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Certification Item 2 -->
+                    <a href="certificates/Communication Skills Professional Certificate.pdf" target="_blank" rel="noopener noreferrer" class="block bg-white dark:bg-gray-800/50 p-6 rounded-lg glow-border hover:-translate-y-1">
+                        <div class="flex items-center space-x-4">
+                            <i data-lucide="award" class="w-8 h-8 text-yellow-500 flex-shrink-0"></i>
+                            <div>
+                                <h3 class="font-semibold text-lg text-gray-800 dark:text-white">Communication Skills Professional Certificate</h3>
+                                <p class="text-sm text-gray-500 dark:text-gray-400">Linkedln</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Certification Item 3 -->
+                    <a href="certificates/python foundation.pdf" target="_blank" rel="noopener noreferrer" class="block bg-white dark:bg-gray-800/50 p-6 rounded-lg glow-border hover:-translate-y-1">
+                        <div class="flex items-center space-x-4">
+                            <i data-lucide="award" class="w-8 h-8 text-yellow-500 flex-shrink-0"></i>
+                            <div>
+                                <h3 class="font-semibold text-lg text-gray-800 dark:text-white">Python Foundation Certificate</h3>
+                                <p class="text-sm text-gray-500 dark:text-gray-400">Infosys | Springboard</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Certification Item 4 -->
+                     <a href="certificates/Wadhwani Foundation Certificate.pdf" target="_blank" rel="noopener noreferrer" class="block bg-white dark:bg-gray-800/50 p-6 rounded-lg glow-border hover:-translate-y-1">
+                        <div class="flex items-center space-x-4">
+                            <i data-lucide="award" class="w-8 h-8 text-yellow-500 flex-shrink-0"></i>
+                            <div>
+                                <h3 class="font-semibold text-lg text-gray-800 dark:text-white">Employibility Skill Job Ready</h3>
+                                <p class="text-sm text-gray-500 dark:text-gray-400">Wadhwani Foundation</p>
+                            </div>
+                        </div>
+                    </a>
+                    
                 </div>
             </div>
         </section>
